@@ -1,0 +1,17 @@
+.shareBox .bdsharebuttonbox{margin-top:20px;}
+.theme-thumb .social .shareBox{padding:20px 0 0}
+.theme-thumb .social .shareBox .bdsharebuttonbox{position:relative;float:left;display:block}
+.shareBox .bdsharebuttonbox .share-links{display:inline-block;position:relative;vertical-align:middle;width:32px;height:32px;border-radius:50%;border:1px solid #000000;text-align:center;line-height:32px;font-size:14px;margin:0 3px;}
+.shareBox .bdsharebuttonbox .bds_more{color:#F77260;border-color:#F77260;}
+.shareBox .bdsharebuttonbox .bds_sqq{color:#00A9FF;border-color:#00A9FF;font-size:14px;}
+.shareBox .bdsharebuttonbox .bds_weixin{color:#7bc549;border-color:#7bc549;}
+.shareBox .bdsharebuttonbox .bds_tsina{color:#ff763b;border-color:#ff763b;}
+.shareBox .bdsharebuttonbox .bds_qzone{color:#ffe21f;border-color:#ffe21f;}
+.shareBox .bdsharebuttonbox .bds_tqq{color:#56b6e7;border-color:#56b6e7;}
+.shareBox .bdsharebuttonbox .bds_tqf{color:#00C5FF;border-color:#00C5FF;}
+.shareBox .bdsharebuttonbox .bds_mail{color:#FF6B00;border-color:#FF6B00;}
+.shareBox .bdsharebuttonbox .bds_copy{color:#495875;border-color:#495875;}
+.shareBox .bdsharebuttonbox .bds_more{color:#56b6e7;border-color:#56b6e7;}
+.shareBox .bdsharebuttonbox i{-webkit-transition:all 0.3s ease;transition:all 0.3s ease;opacity:1;-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);}
+.shareBox a.external{width:0;overflow:hidden;margin:0;border:0;padding:0;}
+.shareBox a.external i{-webkit-transform:translate(0px,0px) rotate(180deg);-ms-transform:translate(0px,0px) rotate(180deg);transform:translate(0px,0px) rotate(180deg);opacity:0}

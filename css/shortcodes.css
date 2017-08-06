@@ -1,0 +1,104 @@
+
+/**
+ * loneShortcodes
+ * Author: Themelone
+ * Author URI: http://www.themelone.com
+ */
+
+/* Column Styles --- */
+
+.lone-one-half{width:48%;}
+.lone-one-third{width:30.66%;}
+.lone-two-third{width:65.33%;}
+.lone-one-fourth{width:22%;}
+.lone-three-fourth{width:74%;}
+.lone-one-fifth{width:16.8%;}
+.lone-two-fifth{width:37.6%;}
+.lone-three-fifth{width:58.4%;}
+.lone-four-fifth{width:79.2%;}
+.lone-one-sixth{width:13.33%;}
+.lone-five-sixth{width:82.67%;}
+.lone-one-half,.lone-one-third,.lone-two-third,.lone-three-fourth,.lone-one-fourth,.lone-one-fifth,.lone-two-fifth,.lone-three-fifth,.lone-four-fifth,.lone-one-sixth,.lone-five-sixth{float:left;margin-right:4%;margin-bottom:2em;position:relative;}
+.lone-column-last{clear:right;margin-right:0 !important;}
+@media screen and (max-width:414px){
+	.lone-one-half,.lone-one-third,.lone-two-third,.lone-three-fourth,.lone-one-fourth,.lone-one-fifth,.lone-two-fifth,.lone-three-fifth,.lone-four-fifth,.lone-one-sixth,.lone-five-sixth{width:96%;}
+}
+/*Button Styles --- */
+a.lone-button,a.lone-button:visited{color:#fff;cursor:pointer;display:inline-block;font-size:14px;font-weight:bold;line-height:1em;margin:10px !important;outline:none;padding:7px 13px !important;text-align:center;text-decoration:none !important;vertical-align:middle;-webkit-transition:border .25s linear,color .25s linear,background-color .25s linear;transition:border .25s linear,color .25s linear,background-color .25s linear;}
+a.lone-button.square{-webkit-border-radius:4px !important;border-radius:4px !important;}
+a.lone-button.medium{font-size:16px;padding:14px 16px !important;}
+a.lone-button.radius{-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;}
+a.lone-button.large{font-size:18px;padding:15px 20px !important;}
+a.lone-button:hover{text-decoration:none;}
+a.lone-button:active{position:relative;top:1px;}
+a.lone-button.green{background-color:#7fc33c;}
+a.lone-button.green:hover{background-color:#8dd242;}
+a.lone-button.light-blue{background-color:#2caada;}
+a.lone-button.light-blue:hover{background-color:#32bcef;}
+a.lone-button.blue{background-color:#0c6fb1;}
+a.lone-button.blue:hover{background-color:#1188d6;}
+a.lone-button.red{background-color:#e3514a;}
+a.lone-button.red:hover{background-color:#ff5e56;}
+a.lone-button.orange{background-color:#ffb031;}
+a.lone-button.orange:hover{background-color:#ffc531;}
+a.lone-button.purple{background-color:#d17ac6;}
+a.lone-button.purple:hover{background-color:#eb90e0;}
+a.lone-button.grey{padding:10px 19px;font-size:17px;line-height:1.471;background-color:#bdc3c7;}
+a.lone-button.grey:hover{background-color:#999;}
+a.lone-button.black{background-color:#444444;}
+a.lone-button.black:hover{background-color:#575757;}
+/* Alert Styles --- */
+.lone-alert{line-height:1.6em;margin:0 0 1.5em 0;padding:0.8em;}
+.lone-alert.white{background:#fff;color:#373737;border-left:5px solid #fbfbfb;}
+.lone-alert.red{color:#e74c3c;background-color:#ffeded;border-left:5px solid #e74c3c;}
+.lone-alert.yellow{background:#fff7d6;color:#956433;border-left:5px solid #e9d477;}
+.lone-alert.green{background:#edfdd3;color:#657e3c;border-left:5px solid #c4dba0;}
+.lone-alert.grey{background:#fbfbfb;color:#373737;border-left:5px solid #dfdfdf;}
+/* Codes Styles --- */
+.lone-codes{display:block;line-height:19px;margin-bottom:20px;overflow:visible;overflow-y:hidden;padding:15px;font:11px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;white-space:pre-wrap;word-wrap:break-word;font-weight:600;}
+.lone-codes.red{background:#ffe6e3;border:1px solid #f2c3bf;color:#bf210e;line-height:19px;}
+.lone-codes.grey{background:#fbfbfb;border:1px solid #dfdfdf;color:#373737;line-height:19px;}
+/* Tab Styles --- */
+.lone-tabs.ui-tabs .ui-tabs-hide{position:absolute;left:-10000px;}
+.ui-tabs-active{color:#4c4c4c;border-top:5px solid #009ae1;background-color:#f5f5f5;}
+.lone-tabs{background:none;margin:0 0 20px 0;}
+.lone-tabs .lone-nav{background:none;border:0;float:none;list-style:none !important;margin:0 !important;padding:0;}
+.lone-tabs .lone-nav li{float:left;list-style:none !important;margin:0 2px -1px 0 !important;position:relative;z-index:10;}
+.lone-tabs .lone-nav li a{color:white;border-top:5px solid rgba(1,1,1,0.2);background-color:#666666;letter-spacing:0px;display:inline-block;cursor:pointer;transition:all 200ms ease-out;-webkit-transition:all 200ms ease-out;padding:5px 20px 10px 20px;}
+.lone-tabs .lone-nav .ui-tabs-selected a,.lone-tabs .lone-nav .ui-tabs-active a{background:#f5f5f5;height:36px;color:#666666;border-top:none;}
+.lone-tabs .lone-tab{padding:15px;color:#808080;border-bottom:5px solid rgba(1,1,1,0.2);background-color:#f5f5f5;text-overflow:ellipsis;word-wrap:break-word;}
+/* Toggle Styles --- */
+.lone-toggle{margin:0 0 35px 0}
+.lone-toggle + .lone-toggle{margin-top:-1.75em;}
+.lone-toggle .lone-toggle-title{cursor:pointer;display:block;outline:none;padding:10px 10px 10px 30px;position:relative;border-left:5px solid #009ae1;background-color:#e9e9e9;}
+.lone-toggle-inner{border-top:none;padding:15px 10px;border-left:5px solid rgba(1,1,1,0.2);background-color:#f5f5f5;}
+.lone-toggle span.ui-icon{background:url(../img/toggle-closed.png) no-repeat;height:12px;margin:-6px 0 0 0;position:absolute;top:50%;left:10px;width:12px;}
+/* Progress Bar --- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.skillbar{font-family:'Open Sans','sans-serif';position:relative;display:block;margin-bottom:15px;width:100%;background:#eee;height:35px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;-webkit-transition-property:width,background-color;-moz-transition-property:width,background-color;-ms-transition-property:width,background-color;-o-transition-property:width,background-color;transition-property:width,background-color;}
+.skillbar-title{position:absolute;top:0;left:0;font-weight:bold;font-size:13px;color:#fff;background:#6adcfa;-webkit-border-top-left-radius:3px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-topleft:3px;-moz-border-radius-bottomleft:3px;border-top-left-radius:3px;border-bottom-left-radius:3px;}
+.skillbar-title span{display:block;background:rgba(0,0,0,0.1);padding:0 20px;height:35px;line-height:35px;text-transform:uppercase;-webkit-border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-topleft:3px;-moz-border-radius-bottomleft:3px;border-top-left-radius:3px;border-bottom-left-radius:3px;}
+.skillbar-bar{height:35px;width:0px;background:#6adcfa;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.skill-bar-percent{position:absolute;right:10px;top:0;font-size:11px;height:35px;line-height:35px;color:#444;color:rgba(0,0,0,0.4);}
+/*Our Team*/
+.lone-shortcode-col{display:inline-block !important;margin:30px -2px !important;float:none !important;}
+.lone-our-team .heading-our-team{text-align:center;width:100%;overflow:hidden;margin-bottom:30px;}
+.lone-shortcode-staf{text-align:center;}
+.lone-shortcode-person-image{position:relative;overflow:hidden;margin-bottom:10px;}
+.lone-shortcode-person-name{margin:0;text-transform:capitalize;}
+.lone-shortcode-position{font-size:13px;font-style:oblique;}
+.lone-shortcode-profile{border-top:1px solid rgba(36,36,36,0.1);padding:10px 0;margin-top:10px;}
+.lone-shortcode-social-media{border-top:1px solid rgba(36,36,36,0.1);text-align:center;display:inline-block;padding-top:10px;}
+.lone-shortcode-social-media a{display:block;width:24px;height:24px;line-height:24px;display:inline-block;color:#999;background-color:rgba(36,36,36,0.1);text-decoration:none;margin-bottom:5px;margin-right:5px;-webkit-transition:all .2s;-moz-transition:all .2s;-o-transition:all .2s;transition:all .2s;}
+.lone-shortcode-social-media a:hover{color:#fff;background-color:#009ae1;}
+/* COLORS */
+.azure{background:#38B1CC;}
+.emerald{background:#2CB299;}
+.violet{background:#8E5D9F;}
+.yellow{background:#EFC32F;}
+.red{background:#E44C41;}
+.lone-toggle .ui-state-active .ui-icon{background:url(../img/toggle-open.png) no-repeat;}
+/* Clearfix */
+.lone-clearfix:before,.lone-clearfix:after{content:"";display:table;}
+.lone-clearfix:after{clear:both;}
+.lone-clearfix{zoom:1;}
